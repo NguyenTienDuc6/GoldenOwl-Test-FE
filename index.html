@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+</head>
+<body>
+    <div class="app">
+        <header  class="header">
+            <div class="grid">
+                <div class="header__title">
+                    <h3 style="font-size: 1.9rem; color: #ffffff;">Weather Dashbroad</h3>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="grid">
+                <div class="grid__row app__content">
+                    <!-- LIST DANH MUC -->
+                    <div class="grid__column-4">
+                    <!-- danh muc -->
+                    <nav class="category">
+                        <h3 class="category__heading">
+                            <i class="category__heading-icon " style="font-size: 2.5rem;"></i>
+                            Enter a City Name
+                        </h3>
+                        <ul class="category-list">
+                            <li style="display: flex;" class="category-item ">
+                                <input type="text" class="category-item__element input" placeholder="E.g., New York, London, Tokyo" style="background-color: #ffffff;">
+                            </li>
+                            <li style="list-style-type: none;" class="category-item ">
+                                <button class="category-item__element search">Search</button>
+                            </li>
+                            <li style="list-style-type: none; " class="category-item">
+                                <h1 style="padding: 0;" class="category-item__element or">OR</h1>
+                            </li>
+                            <li style="list-style-type: none;" class="category-item">
+                                <button class="category-item__element current">Use Current Location</button>
+                            </li>
+                            
+                            
+                        </ul>
+                    </nav>
+                    </div>
+                    <!-- home-weather-->
+                    <div class="grid__column-8">
+                        <!-- main-weather -->
+                        <div class="home-weather">
+                            <div class="home-weather__display">
+                                <ul class="display-weather">
+                                    <li class="display-weather__title" style="font-size: 2.5rem; font-weight: 600;">London (2023-06-19)</li>
+                                    <li class="display-weather__title">Temperature: 18.71°C</li>
+                                    <li class="display-weather__title">Wind: 4.31 M/S</li>
+                                    <li class="display-weather__title">Humidity: 76%</li>
+                                </ul>
+
+                        
+                            </div>
+
+                            <div class="home-weather__image">
+                                <img src="https://cdn-icons-png.flaticon.com/512/4089/4089338.png" alt="" width="170" height="150" style="padding-right: 50px ;">
+                            </div>
+                            
+                        </div>
+
+                        <span class="decribe"> <h3 class="" style="font-weight: 600; font-size: 2.5rem; padding: 10px;">
+                                4-Day Forcast
+                            </h3>
+                        </span>
+
+                        <!-- anothher day -->
+                        <div class="another-day ">
+                            <div class="grid__row">
+                                <div class="grid__column-4-4 ">
+                                    <!-- anothher day element -->
+                                    <a class="another-day-weather" href="#">
+                                        <ul class="another-day-list">
+                                            <li class="another-day-element" style="font-weight: 600;">(2023-06-20)</li>
+                                            <img src="https://cdn-icons-png.flaticon.com/512/4089/4089338.png" alt="" width="70" height="70" style="margin: 5px 0;">
+                                            <li class="another-day-element">Temperature: 18.71°C</li>
+                                            <li class="another-day-element">Wind: 4.31 M/S</li>
+                                            <li class="another-day-element">Humidity: 76%</li>
+                                        </ul>
+                                    </a>
+
+                                    
+                                    
+                                    
+                                </div>
+
+                                <div class="grid__column-4-4 ">
+                                    <!-- anothher day element -->
+                                    <a class="another-day-weather" href="#">
+                                        <ul class="another-day-list">
+                                            <li class="another-day-element" style="font-weight: 600;">(2023-06-21)</li>
+                                            <img src="https://cdn-icons-png.flaticon.com/512/116/116251.png" alt="" width="70" height="70" style="margin: 5px 0;">
+                                            <li class="another-day-element">Temperature: 13.22°C</li>
+                                            <li class="another-day-element">Wind: 4.4 M/S</li>
+                                            <li class="another-day-element">Humidity: 66%</li>
+                                        </ul>
+                                    </a>
+
+                                    
+                                    
+                                    
+                                </div>
+
+                                <div class="grid__column-4-4 ">
+                                    <!-- anothher day element -->
+                                    <a class="another-day-weather" href="#">
+                                        <ul class="another-day-list">
+                                            <li class="another-day-element" style="font-weight: 600;">(2023-06-22)</li>
+                                            <img src="https://cdn-icons-png.flaticon.com/512/5088/5088276.png" alt="" width="80" height="80" style="">
+                                            <li class="another-day-element">Temperature: 15.71°C</li>
+                                            <li class="another-day-element">Wind: 3.5 M/S</li>
+                                            <li class="another-day-element">Humidity: 75%</li>
+                                        </ul>
+                                    </a>
+
+                                    
+                                    
+                                    
+                                </div>
+
+                                <div class="grid__column-4-4 ">
+                                    <!-- anothher day element -->
+                                    <a class="another-day-weather" href="#">
+                                        <ul class="another-day-list">
+                                            <li class="another-day-element" style="font-weight: 600;">(2023-06-23)</li>
+                                            <img src="https://cdn-icons-png.flaticon.com/512/5903/5903432.png" alt="" width="80" height="80" style="">
+                                            <li class="another-day-element">Temperature: 20.1°C</li>
+                                            <li class="another-day-element">Wind: 5.31 M/S</li>
+                                            <li class="another-day-element">Humidity: 80%</li>
+                                        </ul>
+                                    </a>
+
+                                    
+                                    
+                                    
+                                </div>
+
+     
+                                
+                            </div>
+                        </div>
+
+                       
+                        
+                    </div>
+                </div>
+    
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
